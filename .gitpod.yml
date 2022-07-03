@@ -3,4 +3,4 @@ tasks:
     init: |
        pip install -r requirements.txt
        pip install cython
-       sudo apt-get install build-essential cmake cython3 libboost-all-dev openmpi-common libfftw3-dev libhdf5-dev libhdf5-dev libhdf5-openmpi-dev libgsl-dev     
+       yes | sudo apt-get install build-essential cmake cython3 libboost-all-dev openmpi-common libfftw3-dev libhdf5-dev libhdf5-dev libhdf5-openmpi-dev libgsl-dev     
